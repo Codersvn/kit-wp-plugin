@@ -1,0 +1,151 @@
+[2018-10-31 03:32:24] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:32:24] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught InvalidArgumentException: View [error] not found. in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/FileViewFinder.php:137
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error', Array)
+#1 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/Factory.php(128): Illuminate\View\FileViewFinder->find('error')
+#2 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Traits/View.php(14): Illuminate\View\Factory->make('error', Array)
+#3 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/support/Facades/Facade.php(221): NF\View\View->render('error', Array)
+#4 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Exceptions/Handler.php(147): Illuminate\Support\Facades\Facade::__callStatic('render', Array)
+#5 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Excepti in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/FileViewFinder.php:137
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Bootstrap/HandleExceptions.php(131): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Bootstrap/HandleExceptions.php(117): NF\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Bootstrap/HandleExceptions.php(0): NF\Bootstrap\HandleExceptions->handleShutdown()
+#3 {main}  
+[2018-10-31 03:32:39] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-admin/admin-ajax.php(22): require_once('/var/www/reflau...')
+#4 {main}  
+[2018-10-31 03:33:25] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:33:26] production.ERROR: Symfony\Component\Debug\Exception\FatalErrorException: Uncaught InvalidArgumentException: View [error] not found. in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/FileViewFinder.php:137
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('error', Array)
+#1 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/Factory.php(128): Illuminate\View\FileViewFinder->find('error')
+#2 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Traits/View.php(14): Illuminate\View\Factory->make('error', Array)
+#3 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/support/Facades/Facade.php(221): NF\View\View->render('error', Array)
+#4 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Exceptions/Handler.php(147): Illuminate\Support\Facades\Facade::__callStatic('render', Array)
+#5 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Excepti in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/illuminate/view/FileViewFinder.php:137
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Bootstrap/HandleExceptions.php(131): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Bootstrap/HandleExceptions.php(117): NF\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/vendor/nf/core/src/Bootstrap/HandleExceptions.php(0): NF\Bootstrap\HandleExceptions->handleShutdown()
+#3 {main}  
+[2018-10-31 03:33:40] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-admin/admin-ajax.php(22): require_once('/var/www/reflau...')
+#4 {main}  
+[2018-10-31 03:34:02] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:34:33] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:34:55] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:35:10] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:35:17] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:35:22] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:35:32] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:35:41] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-admin/admin-ajax.php(22): require_once('/var/www/reflau...')
+#4 {main}  
+[2018-10-31 03:35:44] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:36:18] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:36:44] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
+[2018-10-31 03:36:52] production.ERROR: Exception: test in /var/www/reflaunt/hoodies/wp-content/plugins/reflaunt/reflaunt.php:11
+Stack trace:
+#0 /var/www/reflaunt/hoodies/wp-settings.php(305): include_once()
+#1 /var/www/reflaunt/hoodies/wp-config.php(107): require_once('/var/www/reflau...')
+#2 /var/www/reflaunt/hoodies/wp-load.php(37): require_once('/var/www/reflau...')
+#3 /var/www/reflaunt/hoodies/wp-blog-header.php(13): require_once('/var/www/reflau...')
+#4 /var/www/reflaunt/hoodies/index.php(17): require('/var/www/reflau...')
+#5 {main}  
